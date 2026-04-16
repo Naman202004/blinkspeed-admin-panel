@@ -6,6 +6,7 @@ const nav = [
   { to: '/', label: 'Dashboard', end: true, icon: '◆' },
   { to: '/users', label: 'Users', icon: '◎' },
   { to: '/oauth', label: 'Social login', icon: '🔗' },
+  { to: '/payments', label: 'Payments', icon: '💳' },
   { to: '/pricing', label: 'Pricing plans', icon: '$' },
   { to: '/settings', label: 'Settings', icon: '⚙' },
 ]

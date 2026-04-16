@@ -3,6 +3,7 @@ import { AuthProvider, useAuth } from './context/AuthContext.jsx'
 import { AdminLayout } from './layouts/AdminLayout.jsx'
 import { DashboardHomePage } from './pages/admin/DashboardHomePage.jsx'
 import { OauthSettingsPage } from './pages/admin/OauthSettingsPage.jsx'
+import { PaymentsPage } from './pages/admin/PaymentsPage.jsx'
 import { PricingPlansPage } from './pages/admin/PricingPlansPage.jsx'
 import { SettingsPage } from './pages/admin/SettingsPage.jsx'
 import { UsersPage } from './pages/admin/UsersPage.jsx'
@@ -75,6 +76,7 @@ function AppRoutes() {
         <Route index element={<DashboardHomePage />} />
         <Route path="users" element={<UsersPage />} />
         <Route path="oauth" element={<OauthSettingsPage />} />
+        <Route path="payments" element={<PaymentsPage />} />
         <Route path="pricing" element={<PricingPlansPage />} />
         <Route path="settings" element={<SettingsPage />} />
       </Route>
